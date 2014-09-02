@@ -1,40 +1,40 @@
 require 'spec_helper'
 
-describe 'right_meow' do
-  describe "Time#meow" do
+describe 'right_computer_please_do_you_happen_to_know_the_time_please_thank_you_meow' do
+  describe "Time#computer_please_do_you_happen_to_know_the_time_please_thank_you_meow" do
     it "matches at the same instant" do
-      meow = Time.meow
+      computer_please_do_you_happen_to_know_the_time_please_thank_you_meow = Time.computer_please_do_you_happen_to_know_the_time_please_thank_you_meow
       now = Time.now
-      expect(now.to_i).to eq(meow.to_i)
+      expect(now.to_i).to eq(computer_please_do_you_happen_to_know_the_time_please_thank_you_meow.to_i)
     end
 
     it "does not match at a different instant" do
-      meow = Time.meow
+      computer_please_do_you_happen_to_know_the_time_please_thank_you_meow = Time.computer_please_do_you_happen_to_know_the_time_please_thank_you_meow
       sleep(1)
       now = Time.now
-      expect(now.to_i).not_to eq(meow.to_i)
+      expect(now.to_i).not_to eq(computer_please_do_you_happen_to_know_the_time_please_thank_you_meow.to_i)
     end
   end
 
-  describe "DateTime#meow" do
+  describe "DateTime#computer_please_do_you_happen_to_know_the_time_please_thank_you_meow" do
     it "matches at the same instant" do
-      meow = DateTime.meow
+      computer_please_do_you_happen_to_know_the_time_please_thank_you_meow = DateTime.computer_please_do_you_happen_to_know_the_time_please_thank_you_meow
       now = DateTime.now
-      expect(now.to_time.to_i).to eq(meow.to_time.to_i)
+      expect(now.to_time.to_i).to eq(computer_please_do_you_happen_to_know_the_time_please_thank_you_meow.to_time.to_i)
     end
 
     it "does not match at a different instant" do
-      meow = DateTime.meow
+      computer_please_do_you_happen_to_know_the_time_please_thank_you_meow = DateTime.computer_please_do_you_happen_to_know_the_time_please_thank_you_meow
       sleep(1)
       now = DateTime.now
-      expect(now.to_time.to_i).not_to eq(meow.to_time.to_i)
+      expect(now.to_time.to_i).not_to eq(computer_please_do_you_happen_to_know_the_time_please_thank_you_meow.to_time.to_i)
     end
   end
 
-  describe "#not_meow" do
+  describe "#computer_please_hold_on_could_you_please_wait_this_many_seconds_for_me" do
     it "sleeps n seconds" do
       pre = Time.now
-      not_meow(1)
+      computer_please_hold_on_could_you_please_wait_this_many_seconds_for_me(1)
       post = Time.now
       expect(post.to_i).to eq(pre.to_i + 1)
     end
