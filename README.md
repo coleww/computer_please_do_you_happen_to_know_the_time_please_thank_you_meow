@@ -1,13 +1,13 @@
-right_meow
+computer_please_do_you_happen_to_know_the_time_please_thank_you_meow
 ==========
 
-Aliases "meow" to "now" in the Time and DateTime classes.
+Aliases "computer_please_do_you_happen_to_know_the_time_please_thank_you_meow" to "now" in the Time and DateTime classes.
 
 
 Examples:
 
-Time.meow => the current time
+Time.computer_please_do_you_happen_to_know_the_time_please_thank_you_meow => the current time
 
-DateTime.meow => the current date and time
+DateTime.computer_please_do_you_happen_to_know_the_time_please_thank_you_meow => the current date and time
 
-not_meow(2) => sleeps for two seconds
+computer_please_hold_on_could_you_please_wait_this_many_seconds_for_me(2) => sleeps for two seconds
