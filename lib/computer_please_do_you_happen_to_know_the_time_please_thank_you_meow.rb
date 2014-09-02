@@ -1,3 +1,5 @@
+require 'date'
+
 class Time
 	def self.computer_please_do_you_happen_to_know_the_time_please_thank_you_meow
 		self.now
