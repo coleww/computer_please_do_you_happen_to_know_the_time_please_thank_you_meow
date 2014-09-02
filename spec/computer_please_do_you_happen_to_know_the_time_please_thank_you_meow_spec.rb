@@ -1,4 +1,7 @@
-require 'spec_helper'
+require 'bundler/setup'
+Bundler.setup
+
+require 'computer_please_do_you_happen_to_know_the_time_please_thank_you_meow'
 
 describe 'right_computer_please_do_you_happen_to_know_the_time_please_thank_you_meow' do
   describe "Time#computer_please_do_you_happen_to_know_the_time_please_thank_you_meow" do
