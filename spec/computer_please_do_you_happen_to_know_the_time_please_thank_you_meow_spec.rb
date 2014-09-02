@@ -42,4 +42,10 @@ describe 'right_computer_please_do_you_happen_to_know_the_time_please_thank_you_
       expect(post.to_i).to eq(pre.to_i + 1)
     end
   end
+
+  describe "#computer_please_cease_all_operations_something_terrible_has_occurred_in_regard_to_the" do
+    it "raises an error" do
+      expect {computer_please_cease_all_operations_something_terrible_has_occurred_in_regard_to_the('test') }.to raise_error('test')
+    end
+  end
 end
