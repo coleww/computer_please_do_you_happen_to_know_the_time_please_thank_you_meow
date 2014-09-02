@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    right_meow (0.0.7)
+    computer_please_do_you_happen_to_know_the_time_please_thank_you_meow (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -20,5 +20,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  right_meow!
+  computer_please_do_you_happen_to_know_the_time_please_thank_you_meow!
   rspec
